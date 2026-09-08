@@ -1,0 +1,5 @@
+flask==3.0.*
+requests==2.32.*
+dnspython==2.6.*
+reportlab==4.2.*
+pytest==8.3.*
