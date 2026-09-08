@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "description": "Mock certification-body registry standing in for real lookups against issuing bodies (e.g. IAF CertSearch for ISO 27001, AICPA for SOC 2, UAE TDRA/Signal & Collaboration Authority for UAE Information Assurance). In production this module would query those registries' APIs/search portals instead of a static file.",
+    "schema": "domain -> list of {standard, status, issuer, valid_from, valid_until, certificate_id}"
+  },
+  "globallogix.com": [
+    {"standard": "ISO 27001", "status": "expired", "issuer": "BSI", "valid_from": "2020-05-01", "valid_until": "2023-05-01", "certificate_id": "IS-88213"}
+  ],
+  "brightfield-solutions.net": [
+    {"standard": "SOC 2 Type II", "status": "active", "issuer": "Schellman", "valid_from": "2024-02-01", "valid_until": "2026-02-01", "certificate_id": "SOC2-44921"}
+  ],
+  "vantagepoint-it.com": [
+    {"standard": "ISO 27001", "status": "active", "issuer": "TUV Rheinland", "valid_from": "2024-09-01", "valid_until": "2027-09-01", "certificate_id": "IS-91045"},
+    {"standard": "UAE IA", "status": "active", "issuer": "TDRA", "valid_from": "2025-01-15", "valid_until": "2028-01-15", "certificate_id": "UAEIA-3312"},
+    {"standard": "SOC 2 Type II", "status": "active", "issuer": "Deloitte", "valid_from": "2025-03-01", "valid_until": "2027-03-01", "certificate_id": "SOC2-77002"}
+  ],
+  "securanet-consulting.com": []
+}
