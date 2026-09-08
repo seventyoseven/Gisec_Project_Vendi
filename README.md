@@ -148,3 +148,5 @@ downstream is agnostic to where the records came from.
 3. Open any of the three generated PDFs in `outputs/` for the one-page
    report and recommended contract conditions, or run `python app.py` for
    the same flow with an interactive intake form and side-by-side table.
+
+ALL WE HAVE TO DO IS BASICALLY HAVE A UX/UI AND HAVE BASIC FUNCTIONALTIY
